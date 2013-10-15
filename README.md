@@ -7,41 +7,42 @@ As always, ensure you have uploaded a copy of JW Player and included the script 
 
 for youtube  
 
-  <div id="myElement"></div>
-  
-  <script>
-      jwplayer("myElement").setup({
-          file: "http://www.youtube.com/watch?v=ac7KhViaVqc",
-          image: "/uploads/myPoster.jpg"
-      });
-  </script>
-  
+
+      <div id="myElement"></div>
+      
+      <script>
+          jwplayer("myElement").setup({
+              file: "http://www.youtube.com/watch?v=ac7KhViaVqc",
+              image: "/uploads/myPoster.jpg"
+          });
+      </script>
+ 
 --------------  
 
 for file mp4  
   
-  <div id="myElement"></div>
-  
-  <script>
-    jwplayer("myElement").setup({
-        file: "/uploads/myVideo.mp4",
-        image: "/uploads/myPoster.jpg"
-    });
-  </script>
+      <div id="myElement"></div>
+      
+      <script>
+        jwplayer("myElement").setup({
+            file: "/uploads/myVideo.mp4",
+            image: "/uploads/myPoster.jpg"
+        });
+      </script>
   
   
 -----------
 
 for file acc
 
-  <div id="myElement"></div>
-  
-  <script>
-      jwplayer("myElement").setup({
-          file: "/uploads/myAudio.aac",
-          image: "/uploads/myPoster.jpg"
-      });
-  </script>
+      <div id="myElement"></div>
+      
+      <script>
+          jwplayer("myElement").setup({
+              file: "/uploads/myAudio.aac",
+              image: "/uploads/myPoster.jpg"
+          });
+      </script>
 
 
 ##Configuration Options
